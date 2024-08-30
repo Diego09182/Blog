@@ -9,7 +9,7 @@
 
 ## 關於專案
 
-使用Laravel與MonogoDB開發的部落格
+使用Laravel與MongoDB開發的部落格
 
 ## 安裝 
 
@@ -17,11 +17,9 @@
 
 ## 版本
 
-Apache 2.0
-
 php 8.2.12
 
-mariaDB 10.7
+mongoDB 4.7
 
 ## 授權條款
 
