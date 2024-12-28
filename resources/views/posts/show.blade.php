@@ -8,7 +8,7 @@
             <h1 class="card-title display-4 mb-4">{{ $post->title }}</h1>
             <p class="card-text fs-5">{{ $post->content }}</p>
             <div class="text-center mt-4">
-                <a href="{{ route('posts.index') }}" class="btn btn-outline-primary btn-lg">Back to Posts</a>
+                <a href="{{ route('posts.index') }}" class="btn btn-outline-primary btn-lg">BLOG</a>
             </div>
         </div>
     </div>

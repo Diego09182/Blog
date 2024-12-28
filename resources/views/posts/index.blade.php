@@ -3,10 +3,6 @@
 @section('content')
 
 <div class="container my-5">
-    <h1 class="display-4 text-center mb-4">Posts</h1>
-    <div class="text-center mb-4">
-        <a href="{{ route('posts.create') }}" class="btn btn-primary btn-lg">Create New Post</a>
-    </div>
     <div class="list-group">
         @foreach($posts as $post)
         <div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center mb-2">
@@ -26,6 +22,7 @@
         </div>
         @endforeach
     </div>
+    {{ $posts->links('pagination::bootstrap-5') }}
 </div>
 
 @endsection

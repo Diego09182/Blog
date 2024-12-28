@@ -5,7 +5,7 @@
 <div class="container my-5">
     <div class="card shadow-sm">
         <div class="card-body">
-            <h1 class="card-title mb-4 text-center">Create Post</h1>
+            <h1 class="card-title mb-4 text-center">創建貼文</h1>
             <form action="{{ route('posts.store') }}" method="POST">
                 @csrf
                 <div class="mb-3">
@@ -23,7 +23,7 @@
                     @enderror
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-success btn-lg">Create Post</button>
+                    <button type="submit" class="btn btn-success btn-lg">創建貼文</button>
                 </div>
             </form>
         </div>

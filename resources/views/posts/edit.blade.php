@@ -5,7 +5,7 @@
 <div class="container my-5">
     <div class="card shadow-sm">
         <div class="card-body">
-            <h1 class="card-title mb-4 text-center">Edit Post</h1>
+            <h1 class="card-title mb-4 text-center">編輯貼文</h1>
             <form action="{{ route('posts.update', $post->id) }}" method="POST">
                 @csrf
                 @method('PUT')
@@ -24,7 +24,7 @@
                     @enderror
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-success btn-lg">Edit Post</button>
+                    <button type="submit" class="btn btn-success btn-lg">編輯貼文</button>
                 </div>
             </form>
         </div>
